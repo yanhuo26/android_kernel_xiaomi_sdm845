@@ -21,6 +21,8 @@
 #include <linux/string.h>
 #include <linux/slab.h>
 
+#include "of_private.h"
+
 /**
  * Find a node with the give full name by recursively following any of
  * the child node links.
