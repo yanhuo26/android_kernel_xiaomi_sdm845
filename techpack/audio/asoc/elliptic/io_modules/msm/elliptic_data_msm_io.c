@@ -46,10 +46,11 @@
 
 #include <elliptic/elliptic_data_io.h>
 #include "elliptic_device.h"
+#include "msm-pcm-afe-v2.h"
 
 #include <dsp/apr_elliptic.h>
 #include <dsp/q6afe-v2.h>
-#include "msm-pcm-afe-v2.h"
+
 #include <linux/ultrasound.h>
 
 #define IO_PING_PONG_BUFFER_SIZE 512
