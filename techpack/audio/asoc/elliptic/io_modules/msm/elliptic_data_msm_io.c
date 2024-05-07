@@ -50,11 +50,6 @@
 #include <dsp/apr_elliptic.h>
 #include <dsp/q6afe-v2.h>
 
-#include <linux/ultrasound.h>
-
-#include <asoc/msm-pcm-afe-v2.h>
-
-
 #define IO_PING_PONG_BUFFER_SIZE 512
 #define AFE_MSM_RX_PSEUDOPORT_ID 0x8001
 #define AFE_MSM_TX_PSEUDOPORT_ID 0x8002
